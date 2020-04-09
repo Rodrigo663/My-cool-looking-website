@@ -1,0 +1,203 @@
+
+/* Positions: 
+    Static: In tune with the HTML
+    Relative: You´re able to change it setting their positions by pixels: Ex: Left: 200px
+    Absolute: Relative to the parent element Ex: You add a margin of 30px left in the parent element: LEFT 30PX
+    Fixed: IF you set top 0px, it will be always in the top no matter if you scroll down the page
+    */
+    
+    
+
+
+
+
+
+.topDiv {
+    background-color: #E4F9F5;
+    padding-top: 100px;
+   
+    
+ 
+
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    line-height: 2;
+}
+
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+h1 {
+    margin: 50px, auto, 0, auto;
+    line-height: 2;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625em;  /*16 PX = 100% = 1em*/
+    
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wg {
+    color: #66BFBF;
+    
+
+
+}
+.blue {
+    color: #11999E;
+}
+
+.dotted {
+    color: #EAF6F6;
+    border-style: none;
+    border-top-style: dotted;
+    height: 0px;
+    width:3%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-width: 5px;
+}
+
+.skill-txt {
+    text-align: left;
+    /*clear:left;*/
+}
+
+.ri {
+    text-align: right;
+    /*clear:right;*/
+}
+.cloud-bottom {
+    position: absolute;
+
+}
+.cloud-top {
+    position: absolute;
+    right: 350px;
+    top: 50px;
+}
+
+
+
+    
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    line-height: 2;
+    
+
+}
+
+.skill-img {
+    width: 25%;
+    margin-right: 30px;
+   
+    
+    float: left;
+}
+.skill-img2 {
+    width: 25%;
+    margin-left: 30px;
+   
+    
+    float: right;
+}
+#profile {
+    width: 19%;
+    margin-top: 50px;
+}
+
+
+
+.myButton {
+    margin-top: 50px;
+    background-color:#11cdd4;
+    font-family: 'Montserrat', sans-serif;
+	border-radius:8px;
+
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+.myButton:hover {
+	background-color:#30e3cb;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.baseDiv {
+    color: #66BFBF;
+    background-color: #66BFBF;
+    margin-top: 50px;
+    position: absolute;
+    padding-top: 90px;
+    padding-right: 1210px;
+    
+}
+
+.link {
+    color: #11999E;
+    font-size: 1.2em;
+    text-decoration: none;
+
+}
+
+.one {
+    position: absolute;
+    right: 750px;
+    top: 35px;
+}
+
+.two {
+    position: absolute;
+    right: 650px;
+    top: 35px;
+}
+.three {
+    position: absolute;
+    right: 550px;
+    top: 35px;
+
+
+}
+
+#copyright {
+    font-size: 0.75rem;
+    position: relative;
+    color:#EAF6F6;
+    left: 600px;
+    bottom: 14px;
+    line-height: 1;
+    width: 159px;
+
+}
+
+.contact-me {
+    margin-top: 90px;
+}
